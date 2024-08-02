@@ -16,7 +16,7 @@ def use():
     if(order==1):
         sleep(2)
         print("\nThis is all Our Treasures:")
-        f = open('E:\Projects\PythonProjects\LibraryManagement\library.txt','r')
+        f = open('library.txt','r')
         file_contents = f.read()
         for s in file_contents:
             s=s.replace('{','')
